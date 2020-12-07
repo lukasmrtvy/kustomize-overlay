@@ -1,0 +1,8 @@
+kind: Kustomization
+
+resources:
+- https://github.com/lukasmrtvy/test.git?ref=1.0.0
+
+images:
+- name: renovate/renovate
+  newTag: 19-slim
