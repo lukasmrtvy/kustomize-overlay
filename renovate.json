@@ -1,0 +1,7 @@
+{
+  "regexManagers": [{
+      "fileMatch": ["(^|/)kustomization\\.yaml$"],
+      "matchStrings": ["\\s- (?<registryUrl>https:\\/\\/[^/]+)\\/(?<depName>.+)\\.git\\?ref=(?<currentValue>.*?)\\s"],
+      "datasourceTemplate": "gitlab-tags"
+  }]
+}
