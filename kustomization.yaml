@@ -1,7 +1,7 @@
 kind: Kustomization
 
 resources:
-- https://github.com/lukasmrtvy/kustomize-base.git?ref=1.0.5
+- https://github.com/lukasmrtvy/kustomize-base.git?ref=1.0.6
 
 images:
 - name: renovate/renovate
